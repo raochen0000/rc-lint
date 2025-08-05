@@ -1,0 +1,46 @@
+.foo {
+  color: #abc;
+
+  :global {
+    .ant-btn {
+      color: red;
+    }
+  }
+}
+
+.selector {
+  padding-left: 15px;
+}
+
+.selector1 {
+  padding-left: 15px;
+
+  background-size: 0, 0;
+}
+
+.selector2 {
+  padding-left: 15px;
+}
+.selector3 {
+  padding-left: 15px;
+}
+
+.selector4 {
+  color: pink;
+  top: 3px;
+}
+
+.selector5 {
+  width: 0rem;
+
+  color: #aaa;
+  background: #aaaaaa;
+}
+
+#foo {
+  color: #ccc;
+}
+
+/*comment */
+
+@unkown colorTag(#abc);
