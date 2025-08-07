@@ -1,6 +1,8 @@
 {
   "name": "rc-lint-config",
-  "private": true,
+  "description": "A collection of ESLint configurations for rc-lint",
+  "author": "raochen",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
@@ -12,5 +14,13 @@
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.2.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raochen0000/rc-lint.git"
   }
 }

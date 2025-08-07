@@ -23,5 +23,6 @@
     "@babel/preset-react": "^7.27.1",
     "eslint": "^9.31.0",
     "mocha": "^11.7.1"
-  }
+  },
+  "gitHead": "e4d8ed6bed776fb8340c1fde7e781c354823dd79"
 }
