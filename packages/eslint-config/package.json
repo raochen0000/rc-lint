@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "mocha ./__tests__/eslint-config.test.js"
@@ -24,5 +24,5 @@
     "eslint": "^9.31.0",
     "mocha": "^11.7.1"
   },
-  "gitHead": "3c2c736646d91738257b07b647f4268832d0de1b"
+  "gitHead": "bab848ba1ed37faf94d79e7a6c57574dde159fa8"
 }
