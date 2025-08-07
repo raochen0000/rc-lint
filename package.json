@@ -11,8 +11,8 @@
     "publish": "lerna publish",
     "prepare": "husky install "
   },
-  "dependencies": {},
   "devDependencies": {
+    "husky": "^9.1.7",
     "lerna": "^8.2.3"
   },
   "publishConfig": {
