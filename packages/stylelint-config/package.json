@@ -1,6 +1,6 @@
 {
   "name": "rc-stylelint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "私有项目中自定义的stylelint配置",
   "author": "raochen <raochen960822@gmail.com>",
   "homepage": "",
