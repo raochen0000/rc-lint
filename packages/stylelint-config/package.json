@@ -1,7 +1,7 @@
 {
   "name": "rc-stylelint-config",
   "version": "1.0.6",
-  "description": "> TODO: description",
+  "description": "私有项目中自定义的stylelint配置",
   "author": "raochen <raochen960822@gmail.com>",
   "homepage": "",
   "license": "ISC",
@@ -18,6 +18,10 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
   },
   "dependencies": {
     "jest": "^30.0.5",
