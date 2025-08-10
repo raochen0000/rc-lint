@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   defaultSeverity: "warning",
   plugins: ["stylelint-scss"],
   rules: {
@@ -86,7 +86,3 @@ const config = {
   },
   ignoreFiles: ["**/node_modules/", "**/dist/", "**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
 };
-
-module.exports = config;
-
-export default config;
